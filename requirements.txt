@@ -1,0 +1,5 @@
+outline-vpn-api
+python-decouple
+pytelegrambotapi
+APScheduler~=3.10.4
+requests~=2.32.3
