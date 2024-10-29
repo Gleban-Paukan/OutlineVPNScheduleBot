@@ -17,12 +17,12 @@ jobstores = {
 scheduler = BackgroundScheduler(jobstores=jobstores)
 scheduler.start()
 
-admins = [272622925, 1125076741]
+admins = []
 
 from outline_vpn.outline_vpn import OutlineVPN
 
-api_url = 'https://185.231.206.47:8281/dOjUw3WN9ClVoW9vTJhxSw'
-cert_sha256 = "5F36B5F24417B705410BAFAEF34C965083785FB86B25168F615EEE2001DF39F1"
+api_url = ''
+cert_sha256 = ""
 
 client = OutlineVPN(api_url=api_url, cert_sha256=cert_sha256)
 
